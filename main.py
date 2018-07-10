@@ -13,7 +13,7 @@ from keras.layers import Conv2D, MaxPooling2D
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import LabelEncoder
 import os
-from util import *
+from rnn import *
 
 np.set_printoptions(threshold=np.nan)
 
