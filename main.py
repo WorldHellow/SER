@@ -14,7 +14,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import LabelEncoder
 import os
 from rnn import *
-
+from cnn import *
 np.set_printoptions(threshold=np.nan)
 
 
@@ -33,6 +33,6 @@ def main():
 	# stftConversion(source, destination)
 	# generateDataset(destination, "data/")
 	rnnClassifier("data/"+'creamaDataset.pkl', "models/")
-
+	cnnClassifier("data/"+'creamaDataset.pkl', "models/")
 
 main()
