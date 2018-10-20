@@ -11,6 +11,22 @@ Research for Developing a Deep Learning based model for Speech Emotion Recogniti
 
 4. https://arxiv.org/ftp/arxiv/papers/1707/1707.09917.pdf . This method also uses 2D CNNs for classification of spectrograms of audio of emotions across 7 classes. The database used is the IEMOCAP data set. The method promised 99% accuracy. We couldn’t implement this method because I was unable to implement DAARP Algorithm. 
 
-At the end we decided to use 2D Convolution Neural Networks and try it on SAVEE dataset. Our model gave around 63% accuracy for male voices and less than 40% for female. This was due to lack of female voices in the dataset. We tried the same method on 1D CNNs and the result was almost the same. 
+At the end we decided to use 2D Convolution Neural Networks and try it on CREMA-D dataset. Our model gave around 63% accuracy for male voices and less than 40% for female. This was due to lack of female voices in the dataset. We tried the same method on 1D CNNs and the result was almost the same. 
 
 The code given in this repo is of 2D CNNs and RNN. 
+
+Dataset: https://github.com/CheyneyComputerScience/CREMA-D 
+
+Dependencies: 
+
+1: Python 2.7
+
+2: Librosa
+
+3: scipy
+
+4: keras
+
+5: sklearn
+
+6: pickle 
